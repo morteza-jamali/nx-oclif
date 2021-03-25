@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "nx-oclif",
+  "version": "0.0.1",
+  "generators": {
+    "nx-oclif": {
+      "factory": "./src/generators/nx-oclif/generator",
+      "schema": "./src/generators/nx-oclif/schema.json",
+      "description": "nx-oclif generator"
+    }
+  }
+}
